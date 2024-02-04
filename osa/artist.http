@@ -1,0 +1,33 @@
+###Find All artist
+GET http://localhost:8080/api/artist
+
+###Find artist by Id
+GET http://localhost:8080/api/artist/1
+
+###Create new artist
+POST http://localhost:8080/api/artist
+Content-Type: application/json
+
+{
+"name": "My Third Content",
+"contentType": "ARTIST",
+"status": "COMPLETED",
+"dateCreated": "2023-10-11T23:45:50",
+"dateUpdated": null
+}
+
+###Update a content by id
+PUT http://localhost:8080/api/content/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "My Second Content Updated",
+  "contentType": "ARTIST",
+  "status": "COMPLETED",
+  "dateCreated": "2023-10-11T23:39:00",
+  "dateUpdated": "2023-10-11T23:45:10"
+}
+
+###Delete content by id
+DELETE http://localhost:8080/api/content/4

@@ -1,0 +1,13 @@
+spring:
+  docker:
+    compose:
+      #profiles:
+        #active: dev
+      file: ./docker-compose.yml
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/sai
+    username: root
+    password: _Innoviah7c
+  jpa:
+    show-sql: true

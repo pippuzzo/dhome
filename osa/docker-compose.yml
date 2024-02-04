@@ -1,0 +1,15 @@
+version: '3.1'
+#volumes:
+  #data:
+#services:
+  #db:
+    #image: mariadb
+    #environment:
+      #MYSQL_ROOT_PASSWORD: <db_root_password>
+      #MYSQL_DATABASE: <db_schema>
+      #MYSQL_USER: <db_username>
+      #MYSQL_PASSWORD: <db_password>
+    #volumes:
+      #- data:/usr/local/Cellar/mysql-client/8.0.33_1/bin/mysql
+    #ports:
+      #- "3306:3306"
